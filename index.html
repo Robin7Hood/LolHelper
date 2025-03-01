@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Meta - Best Champions & Builds</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #ddd;
+            text-align: center;
+        }
+        header {
+            background: #111;
+            padding: 1rem;
+            color: gold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            color: gold;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #e6c200;
+        }
+        .hero {
+            background: url('lol-banner.jpg') center/cover no-repeat;
+            padding: 150px 20px;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: gold;
+            color: black;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #e6c200;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        .tierlist img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.5);
+        }
+        footer {
+            background: #111;
+            color: gold;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 80%;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        form button {
+            background: gold;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        form button:hover {
+            background: #e6c200;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">LoL Meta</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#tierlist">Tier List</a></li>
+                <li><a href="#patch">Patch Notes</a></li>
+                <li><a href="#builds">Builds & Runes</a></li>
+                <li><a href="#counters">Counters</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>League of Legends Meta Guide</h1>
+        <p>Stay ahead of the competition with the latest meta insights.</p>
+        <a href="#tierlist" class="btn">View Tier List</a>
+    </section>
+
+    <section id="tierlist" class="tierlist">
+        <h2>Champion Tier List</h2>
+        <p>Updated regularly with the strongest picks for each role.</p>
+        <img src="tierlist.png" alt="LoL Champion Tier List">
+    </section>
+
+    <section id="patch">
+        <h2>Latest Patch Notes</h2>
+        <p>Find out what’s changed in the latest update.</p>
+    </section>
+
+    <section id="builds">
+        <h2>Best Builds & Runes</h2>
+        <p>Optimal setups for each champion.</p>
+    </section>
+
+    <section id="counters">
+        <h2>Counter Picks</h2>
+        <p>Find the best champions to counter your opponents.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LoL Meta. All rights reserved.</p>
+    </footer>
+</body>
+</html>
